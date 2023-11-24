@@ -636,8 +636,8 @@
   </script>
   <style>
     .unselectable {
-      -moz-user-select: none;
-      -webkit-user-select: none;
+      user-select: none;
+      user-select: none;
       cursor: default;
     }
 
@@ -744,7 +744,7 @@
                   }
 
                   @keyframes animateText {
-                    0 {
+                    0% {
                       left: 100%
                     }
 
@@ -1427,8 +1427,3 @@
 </body>
 
 </html>
-<!--
-Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
-
-Recuperados 1171 objetos (135 KB) do Redis usando PhpRedis (v6.0.1).
--->
