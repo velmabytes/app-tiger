@@ -1,0 +1,54 @@
+.elementor-1303 .elementor-element.elementor-element-e963c43 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.5;
+}
+
+.elementor-1303 .elementor-element.elementor-element-e963c43::before,
+.elementor-1303 .elementor-element.elementor-element-e963c43>.elementor-background-video-container::before,
+.elementor-1303 .elementor-element.elementor-element-e963c43>.e-con-inner>.elementor-background-video-container::before,
+.elementor-1303 .elementor-element.elementor-element-e963c43>.elementor-background-slideshow::before,
+.elementor-1303 .elementor-element.elementor-element-e963c43>.e-con-inner>.elementor-background-slideshow::before,
+.elementor-1303 .elementor-element.elementor-element-e963c43>.elementor-motion-effects-container>.elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-image: url("../images/FORTUNE-FUNDO.webp");
+    background-repeat: repeat-x;
+}
+
+.elementor-1303 .elementor-element.elementor-element-e963c43::before {
+    filter: brightness(100%) contrast(100%) saturate(200%) blur(0px) hue-rotate(300deg);
+}
+
+.elementor-1303 .elementor-element.elementor-element-309aa6cd {
+    --display: flex;
+    --gap: 10px 10px;
+    --overflow: hidden;
+    --background-transition: 0.3s;
+}
+
+@media(max-width:767px) {
+
+    .elementor-1303 .elementor-element.elementor-element-e963c43::before,
+    .elementor-1303 .elementor-element.elementor-element-e963c43>.elementor-background-video-container::before,
+    .elementor-1303 .elementor-element.elementor-element-e963c43>.e-con-inner>.elementor-background-video-container::before,
+    .elementor-1303 .elementor-element.elementor-element-e963c43>.elementor-background-slideshow::before,
+    .elementor-1303 .elementor-element.elementor-element-e963c43>.e-con-inner>.elementor-background-slideshow::before,
+    .elementor-1303 .elementor-element.elementor-element-e963c43>.elementor-motion-effects-container>.elementor-motion-effects-layer::before {
+        background-size: cover;
+    }
+
+    .elementor-1303 .elementor-element.elementor-element-253ce3c6 {
+        z-index: 999;
+    }
+}
+
+@media(min-width:768px) {
+    .elementor-1303 .elementor-element.elementor-element-e963c43 {
+        --content-width: 550px;
+    }
+}
